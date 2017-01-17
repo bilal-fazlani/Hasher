@@ -1,4 +1,4 @@
-Hasher [![Build Status](https://secure.travis-ci.org/Nycto/Hasher.png?branch=master)](http://travis-ci.org/Nycto/Hasher)
+Hasher [![Build Status](https://secure.travis-ci.org/outr/Hasher.png?branch=master)](http://travis-ci.org/outr/Hasher)
 ======
 
 Hasher is a small Scala library to make generating hashes a breeze.
@@ -24,13 +24,13 @@ Supported Hashing Algorithms
 Adding it to your Project
 -------------------------
 
-To import Hasher into your project, you just need to add the following
-directives to your `build.sbt` file:
+Currently published against 2.10, 2.11, and 2.12.
+
+You no longer need a custom resolver as the project is being published to Maven Central, so simply add the dependency to
+your SBT file:
 
 ```
-resolvers ++= Seq("RoundEights" at "http://maven.spikemark.net/roundeights")
-
-libraryDependencies ++= Seq("com.roundeights" %% "hasher" % "1.2.0")
+libraryDependencies += "com.outr" %% "hasher" % "1.2.1")
 ```
 
 

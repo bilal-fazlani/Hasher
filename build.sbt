@@ -1,12 +1,12 @@
 name := "Hasher"
 
-organization := "com.roundeights"
+organization := "com.outr"
 
-version := "1.2.0"
+version := "1.2.1"
 
 scalaVersion := "2.12.1"
 
-crossScalaVersions := Seq("2.11.8", "2.10.6")
+crossScalaVersions := Seq("2.12.1", "2.11.8", "2.10.6")
 
 // append -deprecation to the options passed to the Scala compiler
 scalacOptions ++= Seq("-deprecation", "-feature")
@@ -18,10 +18,6 @@ resolvers ++= Seq(
     "Scalaz Bintray Repo" at "https://dl.bintray.com/scalaz/releases",
     "jBCrypt Repository" at "http://repo1.maven.org/maven2/org/"
 )
-
-publishTo := Some("Spikemark" at "https://spikemark.herokuapp.com/maven/roundeights")
-
-credentials += Credentials(Path.userHome / ".ivy2" / ".credentials")
 
 // Application dependencies
 libraryDependencies ++= Seq(
