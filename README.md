@@ -24,13 +24,13 @@ Supported Hashing Algorithms
 Adding it to your Project
 -------------------------
 
-Currently published against 2.10, 2.11, and 2.12.
+Currently published against 2.11, 2.12, and 2.13.
 
 You no longer need a custom resolver as the project is being published to Maven Central, so simply add the dependency to
 your SBT file:
 
 ```
-libraryDependencies += "com.outr" %% "hasher" % "1.2.1")
+libraryDependencies += "com.outr" %% "hasher" % "1.2.2")
 ```
 
 
