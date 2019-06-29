@@ -1,6 +1,6 @@
 name := "Hasher"
 organization := "com.outr"
-version := "1.2.2-SNAPSHOT"
+version := "1.2.2"
 scalaVersion := "2.13.0"
 crossScalaVersions := Seq("2.13.0", "2.12.8", "2.11.12")
 scalacOptions ++= Seq("-deprecation", "-feature")
