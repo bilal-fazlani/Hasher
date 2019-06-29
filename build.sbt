@@ -2,7 +2,7 @@ name := "Hasher"
 organization := "com.outr"
 version := "1.2.2-SNAPSHOT"
 scalaVersion := "2.13.0"
-crossScalaVersions := Seq("2.13.0", "2.12.8", "2.11.12", "2.10.7")
+crossScalaVersions := Seq("2.13.0", "2.12.8", "2.11.12")
 scalacOptions ++= Seq("-deprecation", "-feature")
 
 publishTo in ThisBuild := sonatypePublishTo.value
