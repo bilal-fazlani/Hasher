@@ -31,7 +31,7 @@ trait BufferedTap extends Tap {
         if ( buffer.size > 0 ) {
             val data = buffer.clone.toArray
             digest.add( data, data.size )
-            buffer.trimStart( data.size )
+            buffer.dropInPlace( data.size )
         }
     }
 

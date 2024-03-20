@@ -184,7 +184,7 @@ private class PlainTextSource (
     override protected[hasher] def fill (
         digest: MutableDigest
     ): MutableDigest = {
-        source.grouped(8192).foreach { group: Seq[Char] =>
+        source.grouped(8192).foreach { (group: Seq[Char]) =>
             val bytes = new String(group.toArray).getBytes(codec.charSet)
             digest.add( bytes, bytes.length )
         }

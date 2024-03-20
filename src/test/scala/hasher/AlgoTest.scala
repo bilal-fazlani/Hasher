@@ -1,8 +1,9 @@
 package test.roundeights.hasher
 
 import org.specs2.mutable._
-
 import com.roundeights.hasher.{Algo, Hasher}
+
+import scala.language.postfixOps
 
 class AlgoTest extends Specification {
 

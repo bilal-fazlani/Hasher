@@ -1,7 +1,5 @@
 package test.roundeights.hasher
 
-import org.specs2.specification.Example
-
 import com.roundeights.hasher.{Algo, Hasher}
 
 import java.io.ByteArrayInputStream
